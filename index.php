@@ -47,24 +47,15 @@
       </div>
       <div class="page-content">
         <?php
-        if (array_key_exists('Calculate', $_POST)) {
-            Calculate();
-        }
-        function Calculate()
-        {
-            echo '<p> A1) ' . (32 + 21) . '</p>';
-            echo '<p> A2) ' . (27 - 13) . '</p>';
-            echo '<p> A3) ' . (8 + 5 * 3) . '</p>';
-            echo '<p> A4) ' . (6 / 4 + 5) . '</p>';
-            echo '<p> A5) ' . (7 + 3 ** 3) . '</p>';
-        ?> }
-        <form method="post">
-          <input type="submit" name="Calculate" class="button" value="Calculate" />
-        </form>
+          echo '<p> A1) ' . (32 + 21) . '</p>';
+          echo '<p> A2) ' . (27 - 13) . '</p>';
+          echo '<p> A3) ' . (8 + 5 * 3) . '</p>';
+          echo '<p> A4) ' . (6 / 4 + 5) . '</p>';
+          echo '<p> A5) ' . (7 + 3 ** 3) . '</p>';
+        ?>
       </div>
       <br />
     </main>
-  </div>
-</body>
-
+    </div>
+  </body>
 </html>
